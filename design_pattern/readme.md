@@ -7,5 +7,5 @@
 - Un code maintanable
 - il propose une solution à un problème
 
-### Design Pattern => Ensemble de bonne pratique permettant de solutionner un problème
+### Design Pattern => Ensemble de stratégie pour une bonne pratique et permettant de solutionner un problème
 
