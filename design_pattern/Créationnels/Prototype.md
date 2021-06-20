@@ -8,4 +8,50 @@
 ## Appliquez le design pattern Prototype
 
 >Le design pattern Prototype (aussi appelé "Clone") consiste à permettre la copie d’un objet sans créer de dépendances fortes entre l’original et sa copie.
-> Pour réalisé cet exploit nous allons délégué la création de l'objet  (clone) à lui même
+> Pour réalisé cet exploit nous allons délégué la création de l'objet  (clone) à lui même.
+
+## Exemple
+
+><?php
+
+class Voiture
+{
+    private $color;
+
+    public function getColor() 
+    {
+        return $this->color;
+    }
+    
+    public function setTheme(Color $color)
+    {
+        $this->color = $color;
+    }
+    
+    public function __clone()
+    {
+        // maintenant qu'il est différent
+        // on pourra mettre à jour le theme seulement sur la copie
+        $this->color = clone $this->color;
+    }
+}
+------------------------------
+<?php
+
+class VoitureCloner
+{
+    public function cloneWithColor(Voiture $voiture, Color $color)
+    {
+        $newVoiture = clone $voiture;
+        $newVoiture->setTheme($color);
+        return $newVoiture;
+    }
+}
+
+$voiture = new Voiture->createVoiture(/* ... */); // beaucoup d'opérations
+$voitureCloner = new VoitureCloner();
+$color = new Color('red'); // par exemple
+
+$newVoiture = $voitureCloner->cloneWithTheme($voiture, $color);
+
+var_dump($voiture->getTheme() === $newVoiture->getTheme()); // false
