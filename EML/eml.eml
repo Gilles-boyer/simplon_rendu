@@ -1,15 +1,3 @@
-# EML
-
-## Qu'est que EML ou Electronic Mail Format ?
-> EML est un format de fichier mail brute. \
-> Le fichier est standardisé et peut donc être lu par des webmail, client mail ou des outils écrits pour. (outlook, Mozilla Thunderbird, internet explorer, ...) \
-> Le format est relativement simple puisqu'il est en brute, on trouve l'en-tête du mail, le sujet et le corps. \
-> Les pièces jointes y sont aussi présentes. \
-> Bref le même contenu que lorsque vous regardez le source d'un mail.
-
-## EML et son code :
-> Pour comprendre son contenu nous allons enregistrer un mail et l'ouvrir avec Vscode:
-```eml
 MIME-Version: 1.0
 Date: Mon, 13 Dec 2021 09:31:44 +0400
 From: gilles boyer <boyer.gilles@live.fr>
@@ -72,4 +60,3 @@ WsB2Pu20cRgv09+shMZe091U4feLL5u/90rFrw1p9eT8zM/HGDSmzb5BGBKaC65d2vX3MetnbbY=
 cL2HOu99BSbPaLeLSLaxFmy1PrjZw/pFSBYspXmOomkCbvfcaV+IM2DxvIOZzpiLcjNNM=3D">C=
 ourrier</a> pour Windows<o:p></o:p></p><p class=3D"MsoNormal"><o:p>&nbsp;</=
 o:p></p></div></body></html>=
-```
