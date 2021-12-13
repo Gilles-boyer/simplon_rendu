@@ -73,3 +73,26 @@ cL2HOu99BSbPaLeLSLaxFmy1PrjZw/pFSBYspXmOomkCbvfcaV+IM2DxvIOZzpiLcjNNM=3D">C=
 ourrier</a> pour Windows<o:p></o:p></p><p class=3D"MsoNormal"><o:p>&nbsp;</=
 o:p></p></div></body></html>=
 ```
+
+### De quoi se compose le code des éléments de l'EML
+
+#### MIME-Version: 1.0 
+>Multipurpose Internet Mail Extensions ( MIME ) est une norme Internet qui étend le format des messages électroniques pour prendre en charge le texte dans des jeux de caractères autres que ASCII , ainsi que les pièces jointes d'audio, de vidéo, d'images et de programmes d'application. Les corps de message peuvent être constitués de plusieurs parties et les informations d'en-tête peuvent être spécifiées dans des jeux de caractères non ASCII. Les e-mails au format MIME sont généralement transmis avec des protocoles standard, tels que le Simple Mail Transfer Protocol (SMTP), le Post Office Protocol (POP) et l' Internet Message Access Protocol (IMAP).
+
+#### Date:
+> il s'agit de la date de l'envoi du mail.
+
+#### From:
+> il s'agit du mail de l'éméteur.
+
+#### Subject:
+> il s'agit de l'objet du mail.
+
+#### Message-ID: 
+> il s'agit d'un id identification du mail.
+
+#### To:
+> il s'agit de l'adresse mail de personne qui reçoit le courriel
+
+#### Content-Transfer-Encoding:
+
