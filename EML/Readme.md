@@ -107,7 +107,9 @@ o:p></p></div></body></html>=
 > Le Content-Type, peut également être utilisé pour définir le charset
 
 ### Le HTML:
-> Oui, l'EML contient de l'html , HTML signifie "HyperText Markup Language". C’est un langage qui permet de composer des pages web. On parle de langage de balisage et non de langage de programmation, car le but du HTML est d’encadrer les différents éléments présents dans une page (images, titres, paragraphes ...) par des balises pour leur permettre d’être mis en forme secondairement (via une feuille de style) et pour leur donner du sens.
+> Oui, l'EML contient de l'html , HTML signifie "HyperText Markup Language". C’est un langage qui permet de composer des pages web. On parle de langage de balisage et non de langage de programmation, car le but du HTML est d’encadrer les différents éléments présents dans une page (images, titres, paragraphes ...) par des balises pour leur permettre d’être mis en forme secondairement (via une feuille de style) et pour leur donner du sens.\
+> Notre mail contient de l'html qui est interprété par notre navigateur ou outil mailing.
+> Exemple de code :
 ```html
 <html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=osoft-com:office:office"
     xmlns:w=3D"urn:schemas-microsoft-com:office:word"=xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml"
